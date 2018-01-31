@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 Rugby c = ((Rugby)parent.getItemAtPosition(position));
-                String equipos =c.getEquipo();
-                Toast.makeText(getApplicationContext(),"has pulsado "+equipos,Toast.LENGTH_LONG).show();
+                String nombre =c.getNombre();
+                Toast.makeText(getApplicationContext(),"has pulsado "+nombre,Toast.LENGTH_LONG).show();
 
 
             }

@@ -10,11 +10,13 @@ public class Rugby {
     int año;
     String equipo;
     String imagen;
+    String nombre;
 
     public Rugby(int año, String equipo, String imagen) {
         this.año = año;
         this.equipo = equipo;
         this.imagen = imagen;
+        this.nombre = nombre;
     }
 
     public int getAño() {
@@ -39,5 +41,13 @@ public class Rugby {
 
     public void setImagen(String imagen) {
         this.imagen = imagen;
+    }
+
+    public String getNombre(){
+        return nombre;
+    }
+
+    public void setNombre(String nombre){
+        this.nombre = nombre;
     }
 }
